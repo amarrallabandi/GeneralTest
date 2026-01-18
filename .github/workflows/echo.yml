@@ -2,10 +2,12 @@ name: Echo
 
 jobs:
   echo1:
+   runs-on: ubuntu-latest
    steps:
     - name: "Echo 1"
       run: echo "Hello first"
   echo2:
+   runs-on: ubuntu-latest
    steps:
     - name: "Echo 2"
       run: echo "Hello Second"

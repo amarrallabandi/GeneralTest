@@ -1,0 +1,11 @@
+name: Echo
+
+jobs:
+  echo1:
+   steps:
+    - name: "Echo 1"
+      run: echo "Hello first"
+  echo2:
+   steps:
+    - name: "Echo 2"
+      run: echo "Hello Second"

@@ -13,6 +13,8 @@ jobs:
 
             - name: set Python env
               uses: actions/setup-python@v5
+              with:
+                    python-version: "3.11"
               
             - name: run python script file
               working-directory: FirstFolder

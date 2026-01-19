@@ -12,7 +12,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: set Python env
-              uses: actions/setup-pythong@v5
+              uses: actions/setup-python@v5
               
             - name: run python script file
               working-directory: FirstFolder

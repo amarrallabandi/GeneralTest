@@ -18,6 +18,6 @@ jobs:
               
             - name: run python script file
               working-directory: FirstFolder
-              run: first.py  
+              run: python first.py  
             
 

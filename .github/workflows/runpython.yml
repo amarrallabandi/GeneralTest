@@ -1,0 +1,21 @@
+name: runpyscript
+
+on:
+    workflow_dispatch:
+
+jobs:
+    runpyscipt:
+        runs-on: ubuntu-latest
+                
+        steps:
+            - name: buildrepo
+              uses: actions/checkout@v4
+
+            - name: set Python env
+              uses: actions/setup-pythong@v5
+              
+            - name: run python script file
+              working-directory: FirstFolder
+              run: first.py  
+            
+

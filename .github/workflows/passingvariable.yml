@@ -1,0 +1,17 @@
+name: passvariables
+
+on:
+    workflow_dispatch:
+
+jobs:
+    echo-variable:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get machine name and date time 
+              run: |
+                M_Name=$(hostname)
+                Current_Date=$(date)
+
+                echo "Machine = $M_Name"
+                echo "Current Datetime = $Current_Date"
+                

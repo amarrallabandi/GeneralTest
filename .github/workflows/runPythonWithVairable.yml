@@ -18,6 +18,6 @@ jobs:
             
             - name: run python script file
               working-directory: FirstFolder
-              run: python prinvariable.py "Hello there"                     
+              run: python printVariable.py "Hello there"                     
 
 
